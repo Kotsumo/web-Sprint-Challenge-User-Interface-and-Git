@@ -49,10 +49,6 @@ body {
     vertical-align: middle;
 }
 
-.navbar a:nth-child(2){
-    
-}
-
 .jumbo{
     display: flex;
     flex-direction: row;
@@ -99,6 +95,18 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content:center;
+    justify-content:space-evenly;
+}
+
+img{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .top-content {
