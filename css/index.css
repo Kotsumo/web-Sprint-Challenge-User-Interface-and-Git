@@ -31,6 +31,45 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-flex-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.navbar{
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 2%;
+    font-size:14px;
+    vertical-align:middle;
+}
+
+.jumbo{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.about{
+    margin-top: 10px;
+    border-bottom: 1px dashed black;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -69,7 +108,13 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content:center;
+    justify-content:space-evenly;
 }
+
 
 .top-content {
     display: flex;
@@ -102,14 +147,46 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background:gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +201,34 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.center-pic img{
+    width: 100%;
+}
+
+.center-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.center-pic{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 1px dashed black;
+    width:45%;
+    padding:10px;
+    margin: 20px;
+}
+
+.together{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 footer {
